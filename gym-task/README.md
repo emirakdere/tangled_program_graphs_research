@@ -18,27 +18,27 @@ source ./venv/bin/activate
 
 ### Install editable:
 
-Git clone both this repository and [PyTPG](https://github.com/Ryan-Amaral/PyTPG). 
+- Git clone both this repository and [PyTPG](https://github.com/Ryan-Amaral/PyTPG). 
 
-`git clone https://github.com/Ryan-Amaral/PyTPG.git`
+- `git clone https://github.com/Ryan-Amaral/PyTPG.git`
 
-`git clone https://github.com/emirakdere/tangled_program_graphs_research.git`
+- `git clone https://github.com/emirakdere/tangled_program_graphs_research.git`
 
-After you setup and activate your virtual environment:
+- After you setup and activate your virtual environment:
 
-`pip install opencv-python-headless` # opencv-python-headless is used instead of the generic opencv library
+- `pip install opencv-python-headless` # opencv-python-headless is used instead of the generic opencv library
 
-`cd PyTPG` # cd to wherever you cloned this repository
+- `cd PyTPG` # cd to wherever you cloned this repository
 
-`pip install -e .`
+- `pip install -e .`
 
-`cd ../tangled_program_graphs_research/gym-task` # cd to wherever you cloned this repository
+- `cd ../tangled_program_graphs_research/gym-task` # cd to wherever you cloned this repository
 
-`pip install -e .`
+- `pip install -e .`
 
-`cd ..`
+- `cd ..`
 
-`python3 train.py` # will make this command-line friendly, but for now you have to go into the file and change lines
+- `python3 train.py` # will make this command-line friendly, but for now you have to go into the file and change lines
 
 
 
